@@ -1,0 +1,293 @@
+SOBRE O JUSTIFY-CONTENT - HORIZONTAL
+
+- justify-content: center;
+PERMITE QUE O BONECO SE MOVA ATÉ O CENTRO.
+
+- justify-content: flex-start;
+FAZ A IMAGEM IR PARA O TOPO SUPERIOR, INÍCIO.
+
+- justify-content: flex-end;
+VAI PARA O FIM.
+
+- justify-content: space-between 
+ALINHA O PRIMIEIRO E ÚLTIMO NAS EXTREMIDADES.
+
+- justify-content: space-around;
+ALINHA COM O ESPAÇO (METADE) (tipo margem).
+
+- justify-content: space-evenly;
+FORNECE ESPAÇO IGUAL EM VEZ DE METADE.
+
+
+
+SOBRE O ALIGN-ITEMS - VERTICAflex-direcL
+
+- align-items: center;
+COLOCA NO CENTRO (VERTICALMENTE)
+
+- align-items: flex-start;
+ALINHA NO CANTO SUPERIOR ESQUERDO (INÍCIO)
+
+- align-items: flex-end;
+ALINHA NO CANTO INFERIOR ESQUERDO (NO FIM)
+
+- align-items: baseline;
+OS ITENS SÃO POSICIONADOS NA LINHA DE BASE DO CONTÊINER.
+
+- align-items: stretch;
+ITENS ELÁSTICOS QUE ESTICA A IMAGEM.
+
+
+
+SOBRE O FLEX-DIRECION - DIREÇÃO
+
+- flex-direction: row;
+SÃO EXIBIDOS HORIZONTALMENTE (COMO LINHA)
+
+- flex-direction: row-reverse;
+O MESMO QUE ROW, MAS AO INVERSO.
+
+- flex-direction: column;
+EXIBIDOS COMO COLUNA (VERTICAL)
+
+- flex-direction: column-reverse;
+O MESMO QUE COLUMN, MAS AO INVERSO.
+
+
+
+SOBRE ORDER - ORDEM 
+ 
+ESTRUTURA:
+.wrapper {
+  display: flex;
+}
+
+#arthur {
+  order: 2;
+}
+
+#marilyn {
+  order: 1;
+}
+
+
+SOBRE ALIGN-SELF - ESPECIFICA O ALINHAMENTO 
+
+ESTRUTURA:
+#box1{
+align-self: ?;
+}
+
+- align-self: center;
+FARÁ A CAIXA UM DESCER AO CENTRO DA PÁGINA.
+
+- align-self: flex-start;
+É COLOCADA NO INÍCIO DA PÁGINA (CANTO SUPERIOR ESQUERDO).
+
+- align-self: flex-end;
+É POSICIONADO NO FIM DA PÁGINA (CANTO INFERIOR ESQUERDO).
+
+- align-self: stretch;
+ELEMENTO ELÁSTICO QUE PREENCHE O CONTÂINER.
+
+
+
+
+
+
+
+- EDITAR DEPOOOOOOOOOOOOIS
+
+
+
+
+
+
+Wow! You have found Arthur's stolen gold! Let's collect all of the coins in our chests. Place each coin on a chest using the flex-wrap property.
+The flex-wrap property specifies whether the flexible items should wrap or not. Property values:
+nowrap (default) specifies that the flexible items will not wrap.
+
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  // or the same behavior
+  // without flex-wrap property
+}
+1
+2
+3
+4
+wrap specifies that the flexible items will wrap if necessary.
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+1
+2
+3
+4
+wrap-reverse same as wrap, but reverse.
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+chests. Place each coin on a chest using the flex-wrap property.
+The flex-wrap property specifies whether the flexible items should wrap or not. Property values:
+nowrap (default) specifies that the flexible items will not wrap.
+
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  // or the same behavior
+  // without flex-wrap property
+}
+1
+2
+3
+4
+wrap specifies that the flexible items will wrap if necessary.
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+1
+2
+3
+4
+wrap-reverse same as wrap, but reverse.
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+1
+2
+3
+4
+
+Even more coins! What a rich guy Arthur is. Collect them all using the align-content property.
+The align-content property modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines. Property values:
+center lines stretch to take up the remaining space.
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+1
+2
+3
+4
+flex-start lines are packed toward the start of the flex container.
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+1
+2
+3
+4
+flex-end lines are packed toward the end of the flex container.
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+1
+2
+3
+4
+space-between lines are evenly distributed in the flex container.
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+1
+2
+3
+4
+space-around lines are evenly distributed in the flex container, with half-size spaces on either end.
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+1
+2
+3
+4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
