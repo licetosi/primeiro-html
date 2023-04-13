@@ -1,0 +1,75 @@
+.alpha{
+    background-color: #F9D1AC;
+    text-align: center;
+    
+  }
+
+  .rodapé{
+    background-color: #F9D1AC;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    }
+
+  .segundocabeçalho{
+    background-color: #e3b488;
+    text-align: center;
+    font-size: 0,5cm;
+    font-family:'Courier New', Courier, monospace;
+    }
+
+  h4{
+    font-family:'Courier New', Courier, monospace;
+    }
+
+  button{
+    width: 200px; height: 30px;
+    background-color:#e3b488;   
+    color: #e3b488;
+    border-color: #000000;
+    border-radius: 20px;
+    font-family:'Courier New', Courier, monospace;
+    }
+
+  button a{
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+    }
+
+
+body{
+  margin: 0;
+  font-family: font-family:'Courier New', Courier, monospace;
+
+}
+
+p{
+  margin: 1cm;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+p{
+  margin: 1cm;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+ 
+
+.clínica{
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+
+h1{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1cm;
+}
+
+.imagens img{
+  width: 5cm;
+  margin: 0;
+}
+
+.main{
+
+}
